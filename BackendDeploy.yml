@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: backend
-          image: devopsvconn/devsecops-pipeline-backend-demo:12
+          image: devopsvconn/devsecops-pipeline-backend-demo:13
           env:
             - name: MONGODB_URI
               value: "mongodb://shop:shop@mongo-service:27017"
